@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 module.exports = {
   attributes: {
     name: { type: "string", required: true },
@@ -6,7 +7,7 @@ module.exports = {
     // Add a reference to Hero
     owner: {
       model: "hero",
-      required: true,
+      required: false,
     },
   },
 };

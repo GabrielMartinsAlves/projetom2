@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 module.exports.routes = {
   // Views
   "/": { view: "pages/homepage" },
